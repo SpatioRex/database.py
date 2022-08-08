@@ -45,7 +45,7 @@
 ##    blank_3()
 ##    blank_3()
 
-## numbers = [1,-5,2,-4,6,0,10,3]
+# numbers = [1,-5,2,-4,6,0,10,3]
 
 
 ##for number in numbers:
@@ -79,8 +79,42 @@
 ##print(even(4))
 ##print(odd(5)) 
 
-for row in range(5):
+#for row in range(5):
 #    print("row")
-    for col in range(5):
-        print (col,end='')
-    print()
+#    for col in range(5):
+#        print (col,end='')
+# print():
+
+
+
+
+#def Pos_Neg(x):
+#    for number in numbers:
+#        if number == 0:
+#            print("Zero")
+#        else:
+#            if number > 0:
+#                print ("Positive")
+#            else: 
+#                print("Negative")
+
+#for number in numbers:
+#    print(number)
+#    Pos_Neg(number)
+
+
+#for row in range(1,11):
+#    for col in range(1,row+1):
+#        print('{:3}'.format(col),end='')
+#    print()
+        
+    
+#def hello():
+#    name = input("Enter Name: ")
+#    print( "Hello, " + name + " it's great to meet you!")
+#hello()
+
+def hello():
+    name = input("Enter Name: ")
+    print ("Hello {} nice to meet you!".format(name))
+hello() 
