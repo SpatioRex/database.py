@@ -114,7 +114,84 @@
 #    print( "Hello, " + name + " it's great to meet you!")
 #hello()
 
-def hello():
-    name = input("Enter Name: ")
-    print ("Hello {} nice to meet you!".format(name))
-hello() 
+##def hello():
+##    name = input("Enter Name: ")
+##    print ("Hello {} nice to meet you!".format(name))
+##hello() 
+
+
+
+##i = 0
+##i= i + 1
+##i += 1
+
+#number = int (input("Enter Number: "))
+##number = int(number)
+#print (type(number))
+
+
+#while True: 
+#     print ("Mack is God")
+#count = int(input("Enter number: "))
+#print("Oh My God!")
+#while count > 0:
+#    print(count)
+#    count -= 1
+#    if count < 1:  this line isnt needed. to get the same result, remove the print variable from the body of the while statement.
+#print('What Happened To Virgil?')
+
+#numbers = [10,5,-9,6,1,-2,-8,4,-1]
+#pos = []
+#neg = []
+
+##for number in numbers:
+##    if number > 0:
+##        pos.append(number)
+##    else:
+##        neg.append(number)
+#print(pos)
+#print(neg)
+
+#pos = [i for i in range(10) if i >0 ] 
+#print(pos)
+
+#list_numbers = []
+
+#for i in range(3):
+#    list_numbers.append(list(range(1,6)))
+#1, 3, 13, 19, 25
+#5, 14, 18, 20, 24
+#6, 7, 15, 17, 23
+#4, 8 ,9 ,10, 22
+#2, 11, 12, 16, 21
+#for i in list_numbers:
+#    print(i) 
+
+import random 
+
+#for i in range(10):
+#    print(random.randint(1,25))
+ 
+#number = [random.randint(1,25) for i in range (10)]
+#print (number)
+
+numbers = [ i for i in range (1,25)]
+random.shuffle(numbers)
+#print (numbers)
+
+
+shuffled = [22, 24, 21, 2, 25,
+8, 17, 14, 1, 7, 
+12, 10, 16, 3, 19, 
+15, 20, 13, 6, 11, 
+5, 4, 18, 23, 9]
+
+horses = [ [],
+    [],
+    [],
+    [],
+    [],
+    []
+]
+for i in horses:
+    print(race)
