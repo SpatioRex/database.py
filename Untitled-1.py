@@ -167,7 +167,7 @@
 #for i in list_numbers:
 #    print(i) 
 
-import random 
+#import random 
 
 #for i in range(10):
 #    print(random.randint(1,25))
@@ -175,23 +175,71 @@ import random
 #number = [random.randint(1,25) for i in range (10)]
 #print (number)
 
-numbers = [ i for i in range (1,25)]
-random.shuffle(numbers)
+#numbers = [ i for i in range (1,25)]
+#random.shuffle(numbers)
 #print (numbers)
 
 
-shuffled = [22, 24, 21, 2, 25,
-8, 17, 14, 1, 7, 
-12, 10, 16, 3, 19, 
-15, 20, 13, 6, 11, 
-5, 4, 18, 23, 9]
+#shuffled = [22, 24, 21, 2, 25,
+#8, 17, 14, 1, 7, 
+#12, 10, 16, 3, 19, 
+#15, 20, 13, 6, 11, 
+#5, 4, 18, 23, 9]
 
-horses = [ [],
-    [],
-    [],
-    [],
-    [],
-    []
-]
-for i in horses:
-    print(race)
+#horses = [[],
+#    [],
+#    [],
+#    [],
+#    []
+#]
+#for i in range(5):
+#    for j in range(5):#
+#        horses[j].append( shuffled.pop())
+# print(horses)
+
+#for race in horses:
+#    race.sort(reverse = True ) " this line makes a list from decending order"
+#    race.sort()
+#    print(race)
+
+
+#    def last(x): 
+#        return x[-1] 
+
+#new_horses = sorted(horses, key=last, reverse=True) 
+#print()
+#for race in new_horses:
+#    race.sort()
+    
+#print(new_horses)
+
+#new_horses [0][2:]
+#print(new_horses[0][2:]
+
+
+#def time_table():
+#    while True:
+#        try:
+#            x = int(input("Please Enter a Number: "))
+#            for row in range(x):
+#                for col in range(x):
+#                    print(f"{row*col:3}", end = "")
+#                print()
+#        except ValueError:
+#            print("A Number, Not a letter.: ")
+#        q = input("Do you want another table? y/n ").lower()
+#        if q[0] == "n":
+#            break
+
+#time_table()
+
+def is_prime (num):
+    for i in range(2,num):
+        if num %i == 0:
+            return False
+    return True
+
+test = [3,6,11,31]
+
+for num in test:
+    print(f"{num} is prime number  {is_prime(num)}")
