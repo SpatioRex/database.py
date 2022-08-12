@@ -233,13 +233,92 @@
 
 #time_table()
 
-def is_prime (num):
-    for i in range(2,num):
-        if num %i == 0:
-            return False
-    return True
+#def is_prime (num):
+#    for i in range(2,num):
+#        if num %i == 0:
+#            return False
+#    return True
 
-test = [3,6,11,31]
+#test = [3,6,11,31]
 
-for num in test:
-    print(f"{num} is prime number  {is_prime(num)}")
+#for num in test:
+#     print(f"{num} is prime number  {is_prime(num)}")
+
+#def n_th_prime(x):
+#    num = 3
+#    prime = 2
+#    if x == 1:
+#        return 2
+#    while prime < x:
+#        num += 2
+#        if is_prime(num):
+#            prime += 1
+#    return num
+
+#primes = [i for i in range(2,101)if is_prime (i)]
+#print(primes)
+
+
+
+
+
+#import random
+
+##number = random.randint(1,20)  by leaving this line here you dont allow the loop to generate new random numbers. Instead, try adding this line into the while loop
+
+#while True:
+#    number = random.randint(1,20)
+#    print(number)
+   
+#    try:
+#        guess = int(input("Please Enter a numerical guess: "))
+#        while guess!= number:
+#            if guess > number:
+#                print("A little warm there bucko.")
+#                guess = int(input("Please enter a numerical guess: "))
+#            else:
+#                    print("Looking a bit cold.")
+#                    guess = int(input("Please enter numerical guess: "))
+#        else:
+#            print("A shooter knows a shooter, and i see you cuzz!")
+#    except ValueError:
+#        print("I said a number! Try again dullard.")
+#    print("A shooter knows a shooter, and i see you cuzz!")
+#    q = input("You tryna run it back? y/n: ").lower()
+    ###for line 289, ensure youre using brackets instead of parenthasis.
+ #   if q[0] == 'n': 
+ #       break
+
+
+
+
+ #leap year 
+ #1992 1600 1900 2020 
+
+#def leap_year(x):
+#    if x %(4) == 0:
+#        if x % 100 == 0:
+#            if x % 400 ==0:
+#                return True
+#            else:
+#                return False
+#        else:
+#            return False
+#    else:
+#        return False
+
+#years = [1992, 1600, 1900, 2002, 2020]
+
+#for year in years:
+#    print(year,  leap_year(year))
+
+
+
+
+names = ["Mack", "Jessica", "Agustus"]
+
+#for i in range (len(names)):
+#    print (i+1, names[i])  
+
+for num,names in enumerate(names, start=1):
+    print(num,names)
